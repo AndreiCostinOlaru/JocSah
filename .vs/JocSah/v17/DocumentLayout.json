@@ -7,16 +7,28 @@
       "RelativeMoniker": "D:0:0:{EF009E7A-4BF5-4DFF-9DEF-8C1A8D7997AF}|jocsah.client\\jocsah.client.esproj|solutionrelative:jocsah.client\\src\\components\\board\\board.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{EF009E7A-4BF5-4DFF-9DEF-8C1A8D7997AF}|jocsah.client\\jocsah.client.esproj|c:\\users\\andre\\source\\repos\\jocsah\\jocsah.client\\src\\components\\pieces\\piece.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EF009E7A-4BF5-4DFF-9DEF-8C1A8D7997AF}|jocsah.client\\jocsah.client.esproj|solutionrelative:jocsah.client\\src\\components\\pieces\\piece.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF009E7A-4BF5-4DFF-9DEF-8C1A8D7997AF}|jocsah.client\\jocsah.client.esproj|c:\\users\\andre\\source\\repos\\jocsah\\jocsah.client\\src\\components\\pieces\\pieces.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EF009E7A-4BF5-4DFF-9DEF-8C1A8D7997AF}|jocsah.client\\jocsah.client.esproj|solutionrelative:jocsah.client\\src\\components\\pieces\\pieces.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EF009E7A-4BF5-4DFF-9DEF-8C1A8D7997AF}|jocsah.client\\jocsah.client.esproj|c:\\users\\andre\\source\\repos\\jocsah\\jocsah.client\\src\\components\\board\\board.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{EF009E7A-4BF5-4DFF-9DEF-8C1A8D7997AF}|jocsah.client\\jocsah.client.esproj|solutionrelative:jocsah.client\\src\\components\\board\\board.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF009E7A-4BF5-4DFF-9DEF-8C1A8D7997AF}|jocsah.client\\jocsah.client.esproj|c:\\users\\andre\\source\\repos\\jocsah\\jocsah.client\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{EF009E7A-4BF5-4DFF-9DEF-8C1A8D7997AF}|jocsah.client\\jocsah.client.esproj|solutionrelative:jocsah.client\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{EF009E7A-4BF5-4DFF-9DEF-8C1A8D7997AF}|jocsah.client\\jocsah.client.esproj|c:\\users\\andre\\source\\repos\\jocsah\\jocsah.client\\src\\components\\pieces\\pieces.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{EF009E7A-4BF5-4DFF-9DEF-8C1A8D7997AF}|jocsah.client\\jocsah.client.esproj|solutionrelative:jocsah.client\\src\\components\\pieces\\pieces.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EF009E7A-4BF5-4DFF-9DEF-8C1A8D7997AF}|jocsah.client\\jocsah.client.esproj|c:\\users\\andre\\source\\repos\\jocsah\\jocsah.client\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{EF009E7A-4BF5-4DFF-9DEF-8C1A8D7997AF}|jocsah.client\\jocsah.client.esproj|solutionrelative:jocsah.client\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF009E7A-4BF5-4DFF-9DEF-8C1A8D7997AF}|jocsah.client\\jocsah.client.esproj|c:\\users\\andre\\source\\repos\\jocsah\\jocsah.client\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{EF009E7A-4BF5-4DFF-9DEF-8C1A8D7997AF}|jocsah.client\\jocsah.client.esproj|solutionrelative:jocsah.client\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "index.css",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\JocSah\\jocsah.client\\src\\index.css",
               "RelativeDocumentMoniker": "jocsah.client\\src\\index.css",
@@ -43,33 +55,72 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Piece.jsx",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\JocSah\\jocsah.client\\src\\components\\Pieces\\Piece.jsx",
+              "RelativeDocumentMoniker": "jocsah.client\\src\\components\\Pieces\\Piece.jsx",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\JocSah\\jocsah.client\\src\\components\\Pieces\\Piece.jsx",
+              "RelativeToolTip": "jocsah.client\\src\\components\\Pieces\\Piece.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-04-30T15:03:40.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Pieces.css",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\JocSah\\jocsah.client\\src\\components\\Pieces\\Pieces.css",
+              "RelativeDocumentMoniker": "jocsah.client\\src\\components\\Pieces\\Pieces.css",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\JocSah\\jocsah.client\\src\\components\\Pieces\\Pieces.css",
+              "RelativeToolTip": "jocsah.client\\src\\components\\Pieces\\Pieces.css",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB0AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-30T14:37:12.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Pieces.jsx",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\JocSah\\jocsah.client\\src\\components\\Pieces\\Pieces.jsx",
+              "RelativeDocumentMoniker": "jocsah.client\\src\\components\\Pieces\\Pieces.jsx",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\JocSah\\jocsah.client\\src\\components\\Pieces\\Pieces.jsx",
+              "RelativeToolTip": "jocsah.client\\src\\components\\Pieces\\Pieces.jsx",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAACUAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-04-30T13:26:10.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Board.jsx",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\JocSah\\jocsah.client\\src\\components\\Board\\Board.jsx",
               "RelativeDocumentMoniker": "jocsah.client\\src\\components\\Board\\Board.jsx",
               "ToolTip": "C:\\Users\\andre\\source\\repos\\JocSah\\jocsah.client\\src\\components\\Board\\Board.jsx",
               "RelativeToolTip": "jocsah.client\\src\\components\\Board\\Board.jsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAnAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2024-04-30T11:48:21.931Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Board.css",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\JocSah\\jocsah.client\\src\\components\\Board\\Board.css",
               "RelativeDocumentMoniker": "jocsah.client\\src\\components\\Board\\Board.css",
               "ToolTip": "C:\\Users\\andre\\source\\repos\\JocSah\\jocsah.client\\src\\components\\Board\\Board.css",
               "RelativeToolTip": "jocsah.client\\src\\components\\Board\\Board.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-04-30T11:36:41.256Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\JocSah\\jocsah.client\\.gitignore",
               "RelativeDocumentMoniker": "jocsah.client\\.gitignore",
