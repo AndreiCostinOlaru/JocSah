@@ -1,0 +1,20 @@
+.board {
+    display: grid;
+    width: 650px;
+    height: 650px;
+}
+
+.tiles {
+    display: grid;
+    grid-template-columns: repeat(8,12.5%);
+    grid-template-rows: repeat(8,12.5%);
+}
+
+.tile--light {
+    background-color: #97BC62;
+}
+
+.tile--dark {
+    background-color: #2C5F2D;
+}
+
