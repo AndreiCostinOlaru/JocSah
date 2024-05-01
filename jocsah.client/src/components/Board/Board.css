@@ -18,3 +18,26 @@
     background-color: #2C5F2D;
 }
 
+.highlight:after {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 40px;
+    height: 40px;
+    background: gray;
+    border-radius: 50%;
+    left: 25%;
+    top: 25%;
+}
+
+.attacking:after {
+    display: block;
+    position: absolute;
+    content: '';
+    border: 6px solid red;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+}

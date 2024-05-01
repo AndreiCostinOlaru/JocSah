@@ -7,9 +7,13 @@
     width: 81px;
     height: 81px;
     position:absolute;
+    cursor: grab;
+    background-image:none;
     background-size: 100%;
 }
-
+    .piece.empty {
+        cursor: default;
+    }
     .piece.bk {
         background-image: url('../../assets/king_b.png');
     }

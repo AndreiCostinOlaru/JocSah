@@ -49,8 +49,8 @@ const copyPosition = (position) => {
 }
 function Pieces() {
 
-    const [state, setState] = useState(createPosition());
-    const ref = useRef();
+    const [state, setState] = useState(createPosition())
+    const ref = useRef()
     const onDrop = (e) => {
 
         const newPosition = copyPosition(state)
@@ -59,9 +59,12 @@ function Pieces() {
 
         const [piece, rank, file] = e.dataTransfer.getData('text').split(',');
 
-        newPosition[file][rank] = ' '
-        newPosition[y][x] = piece
-        setState(newPosition)
+        //contact backend to see if valid
+        if (piece != ' ' && true) {
+            newPosition[file][rank] = ' '
+            newPosition[y][x] = piece
+            setState(newPosition)
+        }
        
     }
 
@@ -73,10 +76,7 @@ function Pieces() {
         <div ref={ref} onDrop={onDrop} onDragOver={onDragOver} className="pieces">
             {state.map((r, rank) =>
                 r.map((f, file) =>
-                    state[rank][file]
-                        ? <Piece key={rank +'-'+file} rank={rank} file={file} piece={state[rank][file]}/>
-                        : null
-
+                    <Piece key={rank + '-' + file} rank={rank} file={file} piece={state[rank][file]}/>
                 ))}
 
       </div>
