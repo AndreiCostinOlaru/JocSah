@@ -1,9 +1,20 @@
 import './Pieces.css'
 import Piece from '../Pieces/Piece'
+import { useState,useRef } from 'react'
 
-function Pieces() {
-    const position = new Array(8).fill('').map(() => new Array(8).fill(''))
+const position = new Array(8).fill(' ').map(() => new Array(8).fill(' '))
 
+
+const calculateCoordinates = (ref,e) => {
+    const { left, top } = ref.current.getBoundingClientRect()
+    const size = 650 / 8
+    const x = Math.floor((e.clientX - left) / size)
+    const y = 7 - Math.floor((e.clientY - top) / size)
+    return { x, y }
+}
+
+const createPosition = () => {
+    
     for (let i = 0; i < 8; i++) {
         position[1][i] = 'wp'
         position[6][i] = 'bp'
@@ -24,18 +35,46 @@ function Pieces() {
     position[7][5] = 'bb'
     position[7][6] = 'bn'
     position[7][7] = 'br'
-   
 
+    return position
+}
 
+const copyPosition = (position) => {
+    const newPosition = new Array(8).fill(' ').map(() => new Array(8).fill(' '))
+    for (let rank = 0; rank < 8; rank++)
+        for (let file = 0; file < 8; file++) {
+            newPosition[rank][file] = position[rank][file]
+        }
+    return newPosition
+}
+function Pieces() {
 
+    const [state, setState] = useState(createPosition());
+    const ref = useRef();
+    const onDrop = (e) => {
 
+        const newPosition = copyPosition(state)
+        
+        const { x, y } = calculateCoordinates(ref,e)
+
+        const [piece, rank, file] = e.dataTransfer.getData('text').split(',');
+
+        newPosition[file][rank] = ' '
+        newPosition[y][x] = piece
+        setState(newPosition)
+       
+    }
+
+    const onDragOver = (e) => e.preventDefault();
+    
+    
     return (
 
-      <div className="pieces">
-            {position.map((r, rank) =>
+        <div ref={ref} onDrop={onDrop} onDragOver={onDragOver} className="pieces">
+            {state.map((r, rank) =>
                 r.map((f, file) =>
-                    position[rank][file]
-                        ? <Piece key={rank +'-'+file} rank={rank} file={file} piece={position[rank][file]}/>
+                    state[rank][file]
+                        ? <Piece key={rank +'-'+file} rank={rank} file={file} piece={state[rank][file]}/>
                         : null
 
                 ))}
