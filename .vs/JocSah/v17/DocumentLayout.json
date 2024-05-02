@@ -7,8 +7,32 @@
       "RelativeMoniker": "D:0:0:{A9E69345-9B7A-4C78-A4C2-9652C0441B4B}|JocSah.Server\\JocSah.Server.csproj|solutionrelative:jocsah.server\\chesslogic\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A9E69345-9B7A-4C78-A4C2-9652C0441B4B}|JocSah.Server\\JocSah.Server.csproj|c:\\users\\andre\\source\\repos\\jocsah\\jocsah.server\\chesslogic\\endreason.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9E69345-9B7A-4C78-A4C2-9652C0441B4B}|JocSah.Server\\JocSah.Server.csproj|solutionrelative:jocsah.server\\chesslogic\\endreason.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9E69345-9B7A-4C78-A4C2-9652C0441B4B}|JocSah.Server\\JocSah.Server.csproj|c:\\users\\andre\\source\\repos\\jocsah\\jocsah.server\\chesslogic\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9E69345-9B7A-4C78-A4C2-9652C0441B4B}|JocSah.Server\\JocSah.Server.csproj|solutionrelative:jocsah.server\\chesslogic\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9E69345-9B7A-4C78-A4C2-9652C0441B4B}|JocSah.Server\\JocSah.Server.csproj|c:\\users\\andre\\source\\repos\\jocsah\\jocsah.server\\chesslogic\\pieces\\pawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9E69345-9B7A-4C78-A4C2-9652C0441B4B}|JocSah.Server\\JocSah.Server.csproj|solutionrelative:jocsah.server\\chesslogic\\pieces\\pawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A9E69345-9B7A-4C78-A4C2-9652C0441B4B}|JocSah.Server\\JocSah.Server.csproj|c:\\users\\andre\\source\\repos\\jocsah\\jocsah.server\\chesslogic\\pieces\\king.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9E69345-9B7A-4C78-A4C2-9652C0441B4B}|JocSah.Server\\JocSah.Server.csproj|solutionrelative:jocsah.server\\chesslogic\\pieces\\king.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9E69345-9B7A-4C78-A4C2-9652C0441B4B}|JocSah.Server\\JocSah.Server.csproj|c:\\users\\andre\\source\\repos\\jocsah\\jocsah.server\\chesslogic\\moves\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9E69345-9B7A-4C78-A4C2-9652C0441B4B}|JocSah.Server\\JocSah.Server.csproj|solutionrelative:jocsah.server\\chesslogic\\moves\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9E69345-9B7A-4C78-A4C2-9652C0441B4B}|JocSah.Server\\JocSah.Server.csproj|c:\\users\\andre\\source\\repos\\jocsah\\jocsah.server\\chesslogic\\pieces\\piece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9E69345-9B7A-4C78-A4C2-9652C0441B4B}|JocSah.Server\\JocSah.Server.csproj|solutionrelative:jocsah.server\\chesslogic\\pieces\\piece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9E69345-9B7A-4C78-A4C2-9652C0441B4B}|JocSah.Server\\JocSah.Server.csproj|c:\\users\\andre\\source\\repos\\jocsah\\jocsah.server\\chesslogic\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9E69345-9B7A-4C78-A4C2-9652C0441B4B}|JocSah.Server\\JocSah.Server.csproj|solutionrelative:jocsah.server\\chesslogic\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A9E69345-9B7A-4C78-A4C2-9652C0441B4B}|JocSah.Server\\JocSah.Server.csproj|c:\\users\\andre\\source\\repos\\jocsah\\jocsah.server\\chesslogic\\pieces\\queen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A9E69345-9B7A-4C78-A4C2-9652C0441B4B}|JocSah.Server\\JocSah.Server.csproj|c:\\users\\andre\\source\\repos\\jocsah\\jocsah.server\\chesslogic\\pieces\\knight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9E69345-9B7A-4C78-A4C2-9652C0441B4B}|JocSah.Server\\JocSah.Server.csproj|solutionrelative:jocsah.server\\chesslogic\\pieces\\knight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9E69345-9B7A-4C78-A4C2-9652C0441B4B}|JocSah.Server\\JocSah.Server.csproj|c:\\users\\andre\\source\\repos\\jocsah\\jocsah.server\\chesslogic\\pieces\\pawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9E69345-9B7A-4C78-A4C2-9652C0441B4B}|JocSah.Server\\JocSah.Server.csproj|solutionrelative:jocsah.server\\chesslogic\\pieces\\pawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A9E69345-9B7A-4C78-A4C2-9652C0441B4B}|JocSah.Server\\JocSah.Server.csproj|c:\\users\\andre\\source\\repos\\jocsah\\jocsah.server\\chesslogic\\pieces\\rook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,20 +55,8 @@
       "RelativeMoniker": "D:0:0:{A9E69345-9B7A-4C78-A4C2-9652C0441B4B}|JocSah.Server\\JocSah.Server.csproj|solutionrelative:jocsah.server\\chesslogic\\moves\\normalmove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9E69345-9B7A-4C78-A4C2-9652C0441B4B}|JocSah.Server\\JocSah.Server.csproj|c:\\users\\andre\\source\\repos\\jocsah\\jocsah.server\\chesslogic\\pieces\\piece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9E69345-9B7A-4C78-A4C2-9652C0441B4B}|JocSah.Server\\JocSah.Server.csproj|solutionrelative:jocsah.server\\chesslogic\\pieces\\piece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9E69345-9B7A-4C78-A4C2-9652C0441B4B}|JocSah.Server\\JocSah.Server.csproj|c:\\users\\andre\\source\\repos\\jocsah\\jocsah.server\\chesslogic\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9E69345-9B7A-4C78-A4C2-9652C0441B4B}|JocSah.Server\\JocSah.Server.csproj|solutionrelative:jocsah.server\\chesslogic\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A9E69345-9B7A-4C78-A4C2-9652C0441B4B}|JocSah.Server\\JocSah.Server.csproj|c:\\users\\andre\\source\\repos\\jocsah\\jocsah.server\\chesslogic\\movetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9E69345-9B7A-4C78-A4C2-9652C0441B4B}|JocSah.Server\\JocSah.Server.csproj|solutionrelative:jocsah.server\\chesslogic\\movetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9E69345-9B7A-4C78-A4C2-9652C0441B4B}|JocSah.Server\\JocSah.Server.csproj|c:\\users\\andre\\source\\repos\\jocsah\\jocsah.server\\chesslogic\\moves\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9E69345-9B7A-4C78-A4C2-9652C0441B4B}|JocSah.Server\\JocSah.Server.csproj|solutionrelative:jocsah.server\\chesslogic\\moves\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EF009E7A-4BF5-4DFF-9DEF-8C1A8D7997AF}|jocsah.client\\jocsah.client.esproj|c:\\users\\andre\\source\\repos\\jocsah\\jocsah.client\\src\\components\\pieces\\pieces.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -66,19 +74,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "NormalMove.cs",
-              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\JocSah\\JocSah.Server\\ChessLogic\\Moves\\NormalMove.cs",
-              "RelativeDocumentMoniker": "JocSah.Server\\ChessLogic\\Moves\\NormalMove.cs",
-              "ToolTip": "C:\\Users\\andre\\source\\repos\\JocSah\\JocSah.Server\\ChessLogic\\Moves\\NormalMove.cs",
-              "RelativeToolTip": "JocSah.Server\\ChessLogic\\Moves\\NormalMove.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAhAAAA",
+              "DocumentIndex": 2,
+              "Title": "Result.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\JocSah\\JocSah.Server\\ChessLogic\\Result.cs",
+              "RelativeDocumentMoniker": "JocSah.Server\\ChessLogic\\Result.cs",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\JocSah\\JocSah.Server\\ChessLogic\\Result.cs",
+              "RelativeToolTip": "JocSah.Server\\ChessLogic\\Result.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T17:32:41.11Z",
+              "WhenOpened": "2024-05-02T07:48:45.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EndReason.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\JocSah\\JocSah.Server\\ChessLogic\\EndReason.cs",
+              "RelativeDocumentMoniker": "JocSah.Server\\ChessLogic\\EndReason.cs",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\JocSah\\JocSah.Server\\ChessLogic\\EndReason.cs",
+              "RelativeToolTip": "JocSah.Server\\ChessLogic\\EndReason.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T07:47:56.258Z",
               "EditorCaption": ""
             },
             {
@@ -89,27 +110,26 @@
               "RelativeDocumentMoniker": "JocSah.Server\\ChessLogic\\GameState.cs",
               "ToolTip": "C:\\Users\\andre\\source\\repos\\JocSah\\JocSah.Server\\ChessLogic\\GameState.cs",
               "RelativeToolTip": "JocSah.Server\\ChessLogic\\GameState.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAcwB4AAAABAAAA",
+              "ViewState": "AQIAACsAAAAAAAAAAAAAAEAAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-01T16:05:57.19Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "Board.cs",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\JocSah\\JocSah.Server\\ChessLogic\\Board.cs",
               "RelativeDocumentMoniker": "JocSah.Server\\ChessLogic\\Board.cs",
               "ToolTip": "C:\\Users\\andre\\source\\repos\\JocSah\\JocSah.Server\\ChessLogic\\Board.cs",
               "RelativeToolTip": "JocSah.Server\\ChessLogic\\Board.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAAAD4AAAAlAAAA",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAlwGgAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T15:53:32.469Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-01T15:53:32.469Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "Rook.cs",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\JocSah\\JocSah.Server\\ChessLogic\\Pieces\\Rook.cs",
               "RelativeDocumentMoniker": "JocSah.Server\\ChessLogic\\Pieces\\Rook.cs",
@@ -117,25 +137,23 @@
               "RelativeToolTip": "JocSah.Server\\ChessLogic\\Pieces\\Rook.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAAAB0AAABgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T15:50:24.341Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-01T15:50:24.341Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "Piece.cs",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\JocSah\\JocSah.Server\\ChessLogic\\Pieces\\Piece.cs",
               "RelativeDocumentMoniker": "JocSah.Server\\ChessLogic\\Pieces\\Piece.cs",
               "ToolTip": "C:\\Users\\andre\\source\\repos\\JocSah\\JocSah.Server\\ChessLogic\\Pieces\\Piece.cs",
               "RelativeToolTip": "JocSah.Server\\ChessLogic\\Pieces\\Piece.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAAACIAAABQAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwCsAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T15:44:07.639Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-01T15:44:07.639Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "Bishop.cs",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\JocSah\\JocSah.Server\\ChessLogic\\Pieces\\Bishop.cs",
               "RelativeDocumentMoniker": "JocSah.Server\\ChessLogic\\Pieces\\Bishop.cs",
@@ -143,12 +161,11 @@
               "RelativeToolTip": "JocSah.Server\\ChessLogic\\Pieces\\Bishop.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAAAB8AAABgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T15:48:30.398Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-01T15:48:30.398Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Queen.cs",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\JocSah\\JocSah.Server\\ChessLogic\\Pieces\\Queen.cs",
               "RelativeDocumentMoniker": "JocSah.Server\\ChessLogic\\Pieces\\Queen.cs",
@@ -156,25 +173,24 @@
               "RelativeToolTip": "JocSah.Server\\ChessLogic\\Pieces\\Queen.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T15:51:28.777Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-01T15:51:28.777Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Pawn.cs",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\JocSah\\JocSah.Server\\ChessLogic\\Pieces\\Pawn.cs",
               "RelativeDocumentMoniker": "JocSah.Server\\ChessLogic\\Pieces\\Pawn.cs",
               "ToolTip": "C:\\Users\\andre\\source\\repos\\JocSah\\JocSah.Server\\ChessLogic\\Pieces\\Pawn.cs",
               "RelativeToolTip": "JocSah.Server\\ChessLogic\\Pieces\\Pawn.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAkwEsAAAAJAAAA",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAAAFMAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-01T15:46:15.234Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "Knight.cs",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\JocSah\\JocSah.Server\\ChessLogic\\Pieces\\Knight.cs",
               "RelativeDocumentMoniker": "JocSah.Server\\ChessLogic\\Pieces\\Knight.cs",
@@ -182,25 +198,23 @@
               "RelativeToolTip": "JocSah.Server\\ChessLogic\\Pieces\\Knight.cs",
               "ViewState": "AQIAABkAAAAAAAAAAAApwCYAAABVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T15:52:29.275Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-01T15:52:29.275Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "King.cs",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\JocSah\\JocSah.Server\\ChessLogic\\Pieces\\King.cs",
               "RelativeDocumentMoniker": "JocSah.Server\\ChessLogic\\Pieces\\King.cs",
               "ToolTip": "C:\\Users\\andre\\source\\repos\\JocSah\\JocSah.Server\\ChessLogic\\Pieces\\King.cs",
               "RelativeToolTip": "JocSah.Server\\ChessLogic\\Pieces\\King.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAgwDMAAAA/AAAA",
+              "ViewState": "AQIAACsAAAAAAAAAAAAAAD0AAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T15:51:01.121Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-01T15:51:01.121Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "MoveType.cs",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\JocSah\\JocSah.Server\\ChessLogic\\MoveType.cs",
               "RelativeDocumentMoniker": "JocSah.Server\\ChessLogic\\MoveType.cs",
@@ -208,25 +222,35 @@
               "RelativeToolTip": "JocSah.Server\\ChessLogic\\MoveType.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T17:29:48.572Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-01T17:29:48.572Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 5,
               "Title": "Move.cs",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\JocSah\\JocSah.Server\\ChessLogic\\Moves\\Move.cs",
               "RelativeDocumentMoniker": "JocSah.Server\\ChessLogic\\Moves\\Move.cs",
               "ToolTip": "C:\\Users\\andre\\source\\repos\\JocSah\\JocSah.Server\\ChessLogic\\Moves\\Move.cs",
               "RelativeToolTip": "JocSah.Server\\ChessLogic\\Moves\\Move.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T17:31:17.508Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-01T17:31:17.508Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "NormalMove.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\JocSah\\JocSah.Server\\ChessLogic\\Moves\\NormalMove.cs",
+              "RelativeDocumentMoniker": "JocSah.Server\\ChessLogic\\Moves\\NormalMove.cs",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\JocSah\\JocSah.Server\\ChessLogic\\Moves\\NormalMove.cs",
+              "RelativeToolTip": "JocSah.Server\\ChessLogic\\Moves\\NormalMove.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T17:32:41.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Pieces.jsx",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\JocSah\\jocsah.client\\src\\components\\Pieces\\Pieces.jsx",
               "RelativeDocumentMoniker": "jocsah.client\\src\\components\\Pieces\\Pieces.jsx",
@@ -234,12 +258,11 @@
               "RelativeToolTip": "jocsah.client\\src\\components\\Pieces\\Pieces.jsx",
               "ViewState": "AQIAAAcAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-05-01T15:59:27.07Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-01T15:59:27.07Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "PieceType.cs",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\JocSah\\JocSah.Server\\ChessLogic\\PieceType.cs",
               "RelativeDocumentMoniker": "JocSah.Server\\ChessLogic\\PieceType.cs",
@@ -247,8 +270,7 @@
               "RelativeToolTip": "JocSah.Server\\ChessLogic\\PieceType.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T15:42:56.277Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-01T15:42:56.277Z"
             }
           ]
         }
