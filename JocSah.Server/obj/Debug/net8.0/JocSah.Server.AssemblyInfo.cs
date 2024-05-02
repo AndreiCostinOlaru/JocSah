@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JocSah.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a3c6097b9921dae51ad5f5e3d2235092010b052b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9cb70dc13816d45a8b61e367e5ddb2b874d96e86")]
 [assembly: System.Reflection.AssemblyProductAttribute("JocSah.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JocSah.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

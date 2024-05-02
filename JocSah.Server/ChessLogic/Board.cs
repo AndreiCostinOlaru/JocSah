@@ -6,6 +6,21 @@ namespace JocSah.Server.ChessLogic
     {
 
         private readonly Piece[,] pieces = new Piece[8, 8];
+        private readonly Dictionary<Player, Position> pawnSkipPositions = new Dictionary<Player, Position>()
+        {
+            {Player.White, null },
+            {Player.Black, null }
+        };
+
+        public Position GetPawnSkipPosition(Player player)
+        {
+            return pawnSkipPositions[player];
+        }
+
+        public void SetPawnSkipPosition(Player player, Position pos)
+        {
+            pawnSkipPositions[player] = pos;
+        }
 
         public Piece this[int row, int col]
         {

@@ -25,8 +25,9 @@
             return moveCandidates.Where(move => move.IsLegal(Board));
         }
 
-        public void MakeMove(Move move) { 
+        public void MakeMove(Move move) {
 
+            Board.SetPawnSkipPosition(CurrentPlayer, null);
             move.Execute(Board);
             CurrentPlayer = CurrentPlayer.Opponent();
             CheckForGameOver();
