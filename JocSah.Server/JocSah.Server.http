@@ -1,6 +1,12 @@
 @JocSah.Server_HostAddress = http://localhost:5135
 
-GET {{JocSah.Server_HostAddress}}/weatherforecast/
+GET {{JocSah.Server_HostAddress}}/chess/
 Accept: application/json
 
+
+
+
 ###
+GET {{JocSah.Server_HostAddress}}/chess/initialize
+Accept: application/json
+

@@ -1,31 +1,64 @@
 import Pieces from '../Pieces/Pieces'
 import './Board.css'
-import { useState} from 'react'
+import { useState,useEffect} from 'react'
 
 function Board() {
-    const [position, setPosition] = useState('');
+    const [highlights, setHighlights] = useState(Array(8).fill(null).map(() => Array(8).fill(null)))
 
-    const piecesToBoard = (data) => {
-        setPosition(data);
-    }
-    const getClassName = (i, j) => {
-        let c = 'tile'
-       
-        c += (i + j) % 2 === 0 ? ' tile--dark' : ' tile--light'
-        //get something from backend
-        if (position) {
-            if (true) {
-                if (position[i][j]) {
-                    c += 'attacking'
+    useEffect(() => {
+        fetchHighlights();
+    }, []);
+   
+    const fetchHighlights = () => {
+        fetch('chess')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
                 }
-                else {
-                    c += 'highlight'
-                }
+                return response.json();
+            })
+            .then(highlights => {
+                setHighlights(highlights)
+            })
+            .catch(error => {
+                console.error('Error fetching highlights:', error);
+            });
+    };
+    const onPieceClick = async (e, r, c) => {
+        try {
+            
+            const response = await fetch('/chess/selectpiece', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ row: 7-r, column: c })
+            });
+
+            if (!response.ok) {
+                throw new Error('Network response was not ok.');
             }
+
+            const data = await response.json();
+            console.log(data);
+            setHighlights(data);
         }
+        catch (error) {
+            console.error('Error:', error);
+        }
+    };
+
+
+    const getClassName = (i, j, h) => {
+        let c = 'tile'
+
+        c += (i + j) % 2 === 0 ? ' tile--dark' : ' tile--light'
+
+        if (h === "1") {
+            c += ' highlight'
+        }
+
         return c
     }
-    const ranks = Array(8).fill().map((x,i) => 7-i) 
+    const ranks = Array(8).fill().map((x, i) => 7 - i)
     const files = Array(8).fill().map((x, i) => i)
 
     return (
@@ -34,14 +67,14 @@ function Board() {
             <div className="tiles">
                 {ranks.map((rank, i) =>
                     files.map((file, j) =>
-                        <div key={rank + "-" + file} className={getClassName(9-i, j)}></div>
-                    )               
+                        <div key={rank + "-" + file} className={getClassName(9 - i, j, highlights[i][j])}></div>
+                    )
                 )}
             </div>
-            <Pieces piecesToBoard={piecesToBoard} />
-            
-      </div>
-  );
+            <Pieces onPieceClick={(e, row, column) => onPieceClick(e, row, column)} resetHighlights={() => fetchHighlights()} />
+
+        </div>
+    );
 }
 
 export default Board;

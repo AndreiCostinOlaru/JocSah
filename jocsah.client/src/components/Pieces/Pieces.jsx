@@ -47,28 +47,52 @@ const copyPosition = (position) => {
         }
     return newPosition
 }
-function Pieces() {
+function Pieces({ onPieceClick, resetHighlights }) {
 
     const [state, setState] = useState(createPosition())
     const ref = useRef()
-    const onDrop = (e) => {
+    const onDrop = async (e) => {
 
-        const newPosition = copyPosition(state)
         
-        const { x, y } = calculateCoordinates(ref,e)
+        const { x, y } = calculateCoordinates(ref, e)
+        
 
         const [piece, rank, file] = e.dataTransfer.getData('text').split(',');
 
-        //contact backend to see if valid
-        if (piece != ' ' && true) {
-            newPosition[file][rank] = ' '
-            newPosition[y][x] = piece
-            setState(newPosition)
+
+        try {
+
+            const response = await fetch('/chess/move', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ row: 7-y, column: x })
+            });
+
+            if (!response.ok) {
+                throw new Error('Network response was not ok.');
+            }
+
+            const data = await response.json();
+            resetHighlights();
+            setState(data);
         }
+        catch (error) {
+            console.error('Error:', error);
+        }
+
+        //if (piece != ' ' && true) {
+          //  newPosition[file][rank] = ' '
+            //newPosition[y][x] = piece
+            //setState(newPosition)
+        //}
        
     }
 
     const onDragOver = (e) => e.preventDefault();
+
+    const handlePieceClick = (e, rank, file) => {
+        onPieceClick(e, rank, file);
+    };
     
     
     return (
@@ -76,7 +100,7 @@ function Pieces() {
         <div ref={ref} onDrop={onDrop} onDragOver={onDragOver} className="pieces">
             {state.map((r, rank) =>
                 r.map((f, file) =>
-                    <Piece key={rank + '-' + file} rank={rank} file={file} piece={state[rank][file]}/>
+                    <Piece key={rank + '-' + file} rank={rank} file={file} piece={state[rank][file]} onClick={handlePieceClick} />
                 ))}
 
       </div>

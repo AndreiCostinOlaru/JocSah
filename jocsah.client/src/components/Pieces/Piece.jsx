@@ -7,7 +7,7 @@ const onDragStart = (e, data) => {
 
 const onDragEnd = (e) => { e.target.style.display = 'block'}
 
-function Piece({ rank, file, piece}) {
+function Piece({ rank, file, piece, onClick }) {
   
     let className = `piece ${piece} p-${file}${rank}`;
     const data = `${piece},${file},${rank}`;
@@ -18,13 +18,12 @@ function Piece({ rank, file, piece}) {
         onDragStart(e, data); 
     };
 
-    const handleClick = (e) => {
-        //send data to backend then from backend to board to higlight
-        //onClick(data);
-    };
+    const handleOnClick = (e) => {
+        onClick(e, rank, file);
+    }
 
     return (
-        <div className={className} draggable={true} onDragStart={handleDragStart} onDragEnd={onDragEnd} onClick={handleClick} />
+        <div className={className} draggable={true} onDragStart={handleDragStart} onDragEnd={onDragEnd} onClick={handleOnClick} />
     );
 }
 

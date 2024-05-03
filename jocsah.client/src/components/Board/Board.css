@@ -19,15 +19,14 @@
 }
 
 .highlight:after {
-    display: block;
-    position: absolute;
     content: '';
-    width: 40px;
-    height: 40px;
-    background: gray;
+    width: 60px;
+    height: 60px;
+    margin: 0.7%;
+    position: absolute;
+    background-size: 100%;
     border-radius: 50%;
-    left: 25%;
-    top: 25%;
+    background-color: #FDF3C3;
 }
 
 .attacking:after {
