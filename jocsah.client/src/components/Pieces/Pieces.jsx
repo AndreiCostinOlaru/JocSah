@@ -1,6 +1,7 @@
 import './Pieces.css'
 import Piece from '../Pieces/Piece'
-import { useState,useRef } from 'react'
+import Modal from '../GameOverModal/Modal'
+import { useState, useRef, useEffect } from 'react'
 
 const position = new Array(8).fill(' ').map(() => new Array(8).fill(' '))
 
@@ -39,27 +40,41 @@ const createPosition = () => {
     return position
 }
 
-const copyPosition = (position) => {
-    const newPosition = new Array(8).fill(' ').map(() => new Array(8).fill(' '))
-    for (let rank = 0; rank < 8; rank++)
-        for (let file = 0; file < 8; file++) {
-            newPosition[rank][file] = position[rank][file]
-        }
-    return newPosition
-}
+
+
 function Pieces({ onPieceClick, resetHighlights }) {
 
     const [state, setState] = useState(createPosition())
+    const [modal, setModal] = useState(false)
+    const [winner, setWinner] = useState('')
+    const [reason, setReason] = useState('')
+    
+
+    const checkGameOver = () => {
+        fetch('chess/gameover')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(result => {
+                if (result != null) {
+                    setModal(true)
+                    setWinner(result.Winner == 1 ? "White" : "Black")
+                    setReason(result.Reason == 0 ? "Checkmate" : "Stalemate")
+                }
+            })
+            .catch(error => {
+                console.error('Error fetching game result:', error);
+            });
+    };
     const ref = useRef()
     const onDrop = async (e) => {
 
         
         const { x, y } = calculateCoordinates(ref, e)
         
-
-        const [piece, rank, file] = e.dataTransfer.getData('text').split(',');
-
-
         try {
 
             const response = await fetch('/chess/move', {
@@ -75,16 +90,11 @@ function Pieces({ onPieceClick, resetHighlights }) {
             const data = await response.json();
             resetHighlights();
             setState(data);
+            checkGameOver();
         }
         catch (error) {
             console.error('Error:', error);
         }
-
-        //if (piece != ' ' && true) {
-          //  newPosition[file][rank] = ' '
-            //newPosition[y][x] = piece
-            //setState(newPosition)
-        //}
        
     }
 
@@ -96,8 +106,8 @@ function Pieces({ onPieceClick, resetHighlights }) {
     
     
     return (
-
         <div ref={ref} onDrop={onDrop} onDragOver={onDragOver} className="pieces">
+            {modal && <Modal winner={winner} reason={reason}/>}
             {state.map((r, rank) =>
                 r.map((f, file) =>
                     <Piece key={rank + '-' + file} rank={rank} file={file} piece={state[rank][file]} onClick={handlePieceClick} />

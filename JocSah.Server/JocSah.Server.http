@@ -10,3 +10,6 @@ Accept: application/json
 GET {{JocSah.Server_HostAddress}}/chess/initialize
 Accept: application/json
 
+###
+GET {{JocSah.Server_HostAddress}}/chess/gameover
+Accept: application/json

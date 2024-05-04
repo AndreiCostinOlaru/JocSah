@@ -4,6 +4,12 @@
     height: 650px;
 }
 
+.tile{
+    width: 81.25px;
+    height: 81.25px;
+    position: relative;
+}
+
 .tiles {
     display: grid;
     grid-template-columns: repeat(8,12.5%);
@@ -22,11 +28,12 @@
     content: '';
     width: 60px;
     height: 60px;
-    margin: 0.7%;
     position: absolute;
-    background-size: 100%;
-    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
     background-color: #FDF3C3;
+    border-radius: 50%;
 }
 
 .attacking:after {

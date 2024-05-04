@@ -22,8 +22,12 @@ function App() {
     handleCreate();
     return (
         <div className="app">
-            <h1 id="tabelLabel">Sah</h1>
-            <Board/>
+            <div id="container">
+                <img src="/src/assets/icon.png" alt="icon" />
+                <h1 id="title">CHESS</h1>
+                <img src="/src/assets/icon.png" alt="icon" />
+            </div>
+            <Board />
         </div>
     );
     

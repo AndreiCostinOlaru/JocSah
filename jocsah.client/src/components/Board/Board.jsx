@@ -38,7 +38,6 @@ function Board() {
             }
 
             const data = await response.json();
-            console.log(data);
             setHighlights(data);
         }
         catch (error) {
@@ -63,11 +62,12 @@ function Board() {
 
     return (
         <div className="board">
-
             <div className="tiles">
                 {ranks.map((rank, i) =>
                     files.map((file, j) =>
+                      <div key={rank + "-" + file} className="tile">
                         <div key={rank + "-" + file} className={getClassName(9 - i, j, highlights[i][j])}></div>
+                      </div>
                     )
                 )}
             </div>

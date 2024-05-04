@@ -142,6 +142,15 @@ namespace JocSah.Server
             return Ok(StringMatrixToJSon(BoardToString(CurrentGame.gameState.Board)));
         }
 
+        [HttpGet("/chess/gameover")]
+        public IActionResult GetResult()
+        {
+            if(CurrentGame.gameState != null && CurrentGame.gameState.Result != null)
+            {
+                return Ok(JsonSerializer.Serialize(CurrentGame.gameState.Result));
+            }
+            return Ok("null");
+        }
         private void CacheMoves(IEnumerable<Move> moves)
         {
             CurrentGame.moveCache.Clear();

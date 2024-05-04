@@ -7,5 +7,15 @@
     display: grid;
     place-content: center;
     height: 100vh;
+    background-color: #d0e6fb;
+}
+#title {
+    font-size: 40px;
+    color: black;
+    letter-spacing: 2px;
 }
 
+#container {
+    display: flex;
+    place-content: center;
+}

@@ -3,8 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\andre\\source\\repos\\JocSah\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EF009E7A-4BF5-4DFF-9DEF-8C1A8D7997AF}|jocsah.client\\jocsah.client.esproj|c:\\users\\andre\\source\\repos\\jocsah\\jocsah.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EF009E7A-4BF5-4DFF-9DEF-8C1A8D7997AF}|jocsah.client\\jocsah.client.esproj|solutionrelative:jocsah.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF009E7A-4BF5-4DFF-9DEF-8C1A8D7997AF}|jocsah.client\\jocsah.client.esproj|c:\\users\\andre\\source\\repos\\jocsah\\jocsah.client\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{EF009E7A-4BF5-4DFF-9DEF-8C1A8D7997AF}|jocsah.client\\jocsah.client.esproj|solutionrelative:jocsah.client\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF009E7A-4BF5-4DFF-9DEF-8C1A8D7997AF}|jocsah.client\\jocsah.client.esproj|c:\\users\\andre\\source\\repos\\jocsah\\jocsah.client\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF009E7A-4BF5-4DFF-9DEF-8C1A8D7997AF}|jocsah.client\\jocsah.client.esproj|solutionrelative:jocsah.client\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF009E7A-4BF5-4DFF-9DEF-8C1A8D7997AF}|jocsah.client\\jocsah.client.esproj|c:\\users\\andre\\source\\repos\\jocsah\\jocsah.client\\src\\components\\pieces\\pieces.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{EF009E7A-4BF5-4DFF-9DEF-8C1A8D7997AF}|jocsah.client\\jocsah.client.esproj|solutionrelative:jocsah.client\\src\\components\\pieces\\pieces.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EF009E7A-4BF5-4DFF-9DEF-8C1A8D7997AF}|jocsah.client\\jocsah.client.esproj|c:\\users\\andre\\source\\repos\\jocsah\\jocsah.client\\src\\components\\board\\board.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{EF009E7A-4BF5-4DFF-9DEF-8C1A8D7997AF}|jocsah.client\\jocsah.client.esproj|solutionrelative:jocsah.client\\src\\components\\board\\board.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF009E7A-4BF5-4DFF-9DEF-8C1A8D7997AF}|jocsah.client\\jocsah.client.esproj|c:\\users\\andre\\source\\repos\\jocsah\\jocsah.client\\src\\components\\board\\board.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EF009E7A-4BF5-4DFF-9DEF-8C1A8D7997AF}|jocsah.client\\jocsah.client.esproj|solutionrelative:jocsah.client\\src\\components\\board\\board.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF009E7A-4BF5-4DFF-9DEF-8C1A8D7997AF}|jocsah.client\\jocsah.client.esproj|c:\\users\\andre\\source\\repos\\jocsah\\jocsah.client\\src\\components\\gameovermodal\\modal.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EF009E7A-4BF5-4DFF-9DEF-8C1A8D7997AF}|jocsah.client\\jocsah.client.esproj|solutionrelative:jocsah.client\\src\\components\\gameovermodal\\modal.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF009E7A-4BF5-4DFF-9DEF-8C1A8D7997AF}|jocsah.client\\jocsah.client.esproj|c:\\users\\andre\\source\\repos\\jocsah\\jocsah.client\\src\\components\\gameovermodal\\modal.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{EF009E7A-4BF5-4DFF-9DEF-8C1A8D7997AF}|jocsah.client\\jocsah.client.esproj|solutionrelative:jocsah.client\\src\\components\\gameovermodal\\modal.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EF009E7A-4BF5-4DFF-9DEF-8C1A8D7997AF}|jocsah.client\\jocsah.client.esproj|c:\\users\\andre\\source\\repos\\jocsah\\jocsah.client\\src\\components\\pieces\\piece.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -19,10 +47,6 @@
       "RelativeMoniker": "D:0:0:{A9E69345-9B7A-4C78-A4C2-9652C0441B4B}|JocSah.Server\\JocSah.Server.csproj|solutionrelative:jocsah.server\\currentgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF009E7A-4BF5-4DFF-9DEF-8C1A8D7997AF}|jocsah.client\\jocsah.client.esproj|c:\\users\\andre\\source\\repos\\jocsah\\jocsah.client\\src\\components\\board\\board.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{EF009E7A-4BF5-4DFF-9DEF-8C1A8D7997AF}|jocsah.client\\jocsah.client.esproj|solutionrelative:jocsah.client\\src\\components\\board\\board.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A9E69345-9B7A-4C78-A4C2-9652C0441B4B}|JocSah.Server\\JocSah.Server.csproj|c:\\users\\andre\\source\\repos\\jocsah\\jocsah.server\\controllers\\chesscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9E69345-9B7A-4C78-A4C2-9652C0441B4B}|JocSah.Server\\JocSah.Server.csproj|solutionrelative:jocsah.server\\controllers\\chesscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -34,50 +58,124 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Board.css",
-              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\JocSah\\jocsah.client\\src\\components\\Board\\Board.css",
-              "RelativeDocumentMoniker": "jocsah.client\\src\\components\\Board\\Board.css",
-              "ToolTip": "C:\\Users\\andre\\source\\repos\\JocSah\\jocsah.client\\src\\components\\Board\\Board.css",
-              "RelativeToolTip": "jocsah.client\\src\\components\\Board\\Board.css",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAUwAoAAAABAAAA",
+              "DocumentIndex": 3,
+              "Title": "Pieces.css",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\JocSah\\jocsah.client\\src\\components\\Pieces\\Pieces.css",
+              "RelativeDocumentMoniker": "jocsah.client\\src\\components\\Pieces\\Pieces.css",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\JocSah\\jocsah.client\\src\\components\\Pieces\\Pieces.css",
+              "RelativeToolTip": "jocsah.client\\src\\components\\Pieces\\Pieces.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-05-03T15:51:31.768Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Piece.jsx",
-              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\JocSah\\jocsah.client\\src\\components\\Pieces\\Piece.jsx",
-              "RelativeDocumentMoniker": "jocsah.client\\src\\components\\Pieces\\Piece.jsx",
-              "ToolTip": "C:\\Users\\andre\\source\\repos\\JocSah\\jocsah.client\\src\\components\\Pieces\\Piece.jsx",
-              "RelativeToolTip": "jocsah.client\\src\\components\\Pieces\\Piece.jsx",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAAABQAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-05-03T11:41:59.014Z",
+              "WhenOpened": "2024-05-04T11:49:06.402Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\JocSah\\jocsah.client\\index.html",
+              "RelativeDocumentMoniker": "jocsah.client\\index.html",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\JocSah\\jocsah.client\\index.html",
+              "RelativeToolTip": "jocsah.client\\index.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-04T11:46:08.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.jsx",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\JocSah\\jocsah.client\\src\\App.jsx",
+              "RelativeDocumentMoniker": "jocsah.client\\src\\App.jsx",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\JocSah\\jocsah.client\\src\\App.jsx",
+              "RelativeToolTip": "jocsah.client\\src\\App.jsx",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAABYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-05-04T11:17:58.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.css",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\JocSah\\jocsah.client\\src\\App.css",
+              "RelativeDocumentMoniker": "jocsah.client\\src\\App.css",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\JocSah\\jocsah.client\\src\\App.css",
+              "RelativeToolTip": "jocsah.client\\src\\App.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-04T11:11:13.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Modal.css",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\JocSah\\jocsah.client\\src\\components\\GameOverModal\\Modal.css",
+              "RelativeDocumentMoniker": "jocsah.client\\src\\components\\GameOverModal\\Modal.css",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\JocSah\\jocsah.client\\src\\components\\GameOverModal\\Modal.css",
+              "RelativeToolTip": "jocsah.client\\src\\components\\GameOverModal\\Modal.css",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAUwCUAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-04T10:25:29.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Board.css",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\JocSah\\jocsah.client\\src\\components\\Board\\Board.css",
+              "RelativeDocumentMoniker": "jocsah.client\\src\\components\\Board\\Board.css",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\JocSah\\jocsah.client\\src\\components\\Board\\Board.css",
+              "RelativeToolTip": "jocsah.client\\src\\components\\Board\\Board.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-04T10:18:06.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Modal.jsx",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\JocSah\\jocsah.client\\src\\components\\GameOverModal\\Modal.jsx",
+              "RelativeDocumentMoniker": "jocsah.client\\src\\components\\GameOverModal\\Modal.jsx",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\JocSah\\jocsah.client\\src\\components\\GameOverModal\\Modal.jsx",
+              "RelativeToolTip": "jocsah.client\\src\\components\\GameOverModal\\Modal.jsx",
+              "ViewState": "AQIAABcAAAAAAAAAAAAgwCEAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-05-04T09:35:22.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Piece.jsx",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\JocSah\\jocsah.client\\src\\components\\Pieces\\Piece.jsx",
+              "RelativeDocumentMoniker": "jocsah.client\\src\\components\\Pieces\\Piece.jsx",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\JocSah\\jocsah.client\\src\\components\\Pieces\\Piece.jsx",
+              "RelativeToolTip": "jocsah.client\\src\\components\\Pieces\\Piece.jsx",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAABQAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-05-03T11:41:59.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Pieces.jsx",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\JocSah\\jocsah.client\\src\\components\\Pieces\\Pieces.jsx",
               "RelativeDocumentMoniker": "jocsah.client\\src\\components\\Pieces\\Pieces.jsx",
               "ToolTip": "C:\\Users\\andre\\source\\repos\\JocSah\\jocsah.client\\src\\components\\Pieces\\Pieces.jsx",
               "RelativeToolTip": "jocsah.client\\src\\components\\Pieces\\Pieces.jsx",
-              "ViewState": "AQIAADgAAAAAAAAAAAAAAEsAAAAeAAAA",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAAAG0AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-05-03T11:42:11.531Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-03T11:42:11.531Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "CurrentGame.cs",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\JocSah\\JocSah.Server\\CurrentGame.cs",
               "RelativeDocumentMoniker": "JocSah.Server\\CurrentGame.cs",
@@ -85,34 +183,31 @@
               "RelativeToolTip": "JocSah.Server\\CurrentGame.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T14:46:06.653Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-03T14:46:06.653Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Board.jsx",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\JocSah\\jocsah.client\\src\\components\\Board\\Board.jsx",
               "RelativeDocumentMoniker": "jocsah.client\\src\\components\\Board\\Board.jsx",
               "ToolTip": "C:\\Users\\andre\\source\\repos\\JocSah\\jocsah.client\\src\\components\\Board\\Board.jsx",
               "RelativeToolTip": "jocsah.client\\src\\components\\Board\\Board.jsx",
-              "ViewState": "AQIAADUAAAAAAAAAAAAAAEkAAABjAAAA",
+              "ViewState": "AQIAADUAAAAAAAAAAAAAAEUAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-05-03T11:39:21.493Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-03T11:39:21.493Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "ChessController.cs",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\JocSah\\JocSah.Server\\Controllers\\ChessController.cs",
               "RelativeDocumentMoniker": "JocSah.Server\\Controllers\\ChessController.cs",
               "ToolTip": "C:\\Users\\andre\\source\\repos\\JocSah\\JocSah.Server\\Controllers\\ChessController.cs",
               "RelativeToolTip": "JocSah.Server\\Controllers\\ChessController.cs",
-              "ViewState": "AQIAAFAAAAAAAAAAAAAAANgAAAAJAAAA",
+              "ViewState": "AQIAAIgAAAAAAAAAAAAAAJUAAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T10:43:07.898Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-03T10:43:07.898Z"
             }
           ]
         }
