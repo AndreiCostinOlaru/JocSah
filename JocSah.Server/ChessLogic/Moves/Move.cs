@@ -10,10 +10,17 @@
 
         public virtual bool IsLegal(Board board)
         {
-            Player player = board[FromPos].Color;
-            Board boardCopy = board.Copy();
-            Execute(boardCopy);
-            return !boardCopy.IsInCheck(player);
+            if (board[FromPos] != null)
+            {
+                Player player = board[FromPos].Color;
+                Board boardCopy = board.Copy();
+                Execute(boardCopy);
+                return !boardCopy.IsInCheck(player);
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }

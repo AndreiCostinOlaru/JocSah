@@ -33,33 +33,40 @@
         public override void Execute(Board board)
         {
             new NormalMove(FromPos, ToPos).Execute(board);
-            new NormalMove(rookToPos,rookToPos).Execute(board);
+            new NormalMove(rookFromPos, rookToPos).Execute(board);
         }
 
         public override bool IsLegal(Board board)
         {
-            Player player = board[FromPos].Color;
-
-            if (board.IsInCheck(player))
+            if (board[FromPos] != null)
             {
-                return false;
-            }
+                Player player = board[FromPos].Color;
 
-            Board copy = board.Copy();
-            Position kingPosCopy = FromPos;
-
-            for(int i = 0; i<2; i++)
-            {
-                new NormalMove(kingPosCopy, kingPosCopy + kingMoveDir).Execute(board);
-                kingPosCopy += kingMoveDir;
-
-                if (copy.IsInCheck(player))
+                if (board.IsInCheck(player))
                 {
                     return false;
                 }
-            }
 
-            return true;
+                Board copy = board.Copy();
+                Position kingPosCopy = FromPos;
+
+                for (int i = 0; i < 2; i++)
+                {
+                    new NormalMove(kingPosCopy, kingPosCopy + kingMoveDir).Execute(copy);
+                    kingPosCopy += kingMoveDir;
+
+                    if (copy.IsInCheck(player))
+                    {
+                        return false;
+                    }
+                }
+
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }

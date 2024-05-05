@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import "./Modal.css";
 
-function Modal({ winner, reason }) {
+function Modal({winner, reason}) {
     const [modal, setModal] = useState(true);
 
     const toggleModal = () => {
@@ -27,9 +27,8 @@ function Modal({ winner, reason }) {
                     <div onClick={toggleModal} className="overlay"></div>
                     <div className="modal-content">
                         <h2>{reason}</h2>
-                        <p>
-                            Winner is {winner}!
-                        </p>
+                        {reason == "Stalemate" ? <p>It's a draw!</p> : <p>Winner is {winner}!</p>}
+                        
                         <p>
                             If you want to play again refresh the page :)
                         </p>

@@ -1,7 +1,7 @@
 import './Pieces.css'
 import Piece from '../Pieces/Piece'
 import Modal from '../GameOverModal/Modal'
-import { useState, useRef, useEffect } from 'react'
+import { useState, useRef } from 'react'
 
 const position = new Array(8).fill(' ').map(() => new Array(8).fill(' '))
 
@@ -48,6 +48,7 @@ function Pieces({ onPieceClick, resetHighlights }) {
     const [modal, setModal] = useState(false)
     const [winner, setWinner] = useState('')
     const [reason, setReason] = useState('')
+
     
 
     const checkGameOver = () => {
@@ -72,9 +73,8 @@ function Pieces({ onPieceClick, resetHighlights }) {
     const ref = useRef()
     const onDrop = async (e) => {
 
-        
         const { x, y } = calculateCoordinates(ref, e)
-        
+
         try {
 
             const response = await fetch('/chess/move', {
@@ -100,13 +100,23 @@ function Pieces({ onPieceClick, resetHighlights }) {
 
     const onDragOver = (e) => e.preventDefault();
 
+   
+
+    const onDragStart = async (e) => {
+        const { x, y } = calculateCoordinates(ref, e)
+        console.log("yx drag", y, x)
+        handlePieceClick(e, y, x)
+    };
+
+
     const handlePieceClick = (e, rank, file) => {
+        console.log("rf",rank,file)
         onPieceClick(e, rank, file);
     };
     
     
     return (
-        <div ref={ref} onDrop={onDrop} onDragOver={onDragOver} className="pieces">
+        <div ref={ref} onDrop={onDrop} onDragOver={onDragOver} onDragStart={onDragStart} className="pieces">
             {modal && <Modal winner={winner} reason={reason}/>}
             {state.map((r, rank) =>
                 r.map((f, file) =>

@@ -26,11 +26,13 @@
         }
 
         public void MakeMove(Move move) {
-
-            Board.SetPawnSkipPosition(CurrentPlayer, null);
-            move.Execute(Board);
-            CurrentPlayer = CurrentPlayer.Opponent();
-            CheckForGameOver();
+            if (move.IsLegal(Board))
+            {
+                Board.SetPawnSkipPosition(CurrentPlayer, null);
+                move.Execute(Board);
+                CurrentPlayer = CurrentPlayer.Opponent();
+                CheckForGameOver();
+            }
         }
 
         public IEnumerable<Move> AllLegalMovesFor(Player player)
